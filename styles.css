@@ -1,3 +1,9 @@
+#gif {
+  width: 5%;
+  margin: 0; 
+  visibility: hidden;
+}
+
 h1 {
   font-family: "Fascinate", monospace;
 }
@@ -63,11 +69,7 @@ span {
   transform: scale(-1, 1);
   background-color: #DED;
 }
-#gif {
-  width: 5%;
-  margin: 0; 
-  visibility: hidden;
-}
+
 
 footer {
   font-size: .75rem;
