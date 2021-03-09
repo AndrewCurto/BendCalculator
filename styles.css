@@ -63,7 +63,7 @@ span {
   transform: scale(-1, 1);
   background-color: #DED;
 }
-#measuringGif {
+#gif {
   width: 5%;
   margin: 0; 
   visibility: hidden;
