@@ -49,6 +49,22 @@ span {
   
 }
 
+#reset {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  font-family: "Architects Daughter", monospace; 
+  font-size: 20px;
+  background-color: #DEE;
+  border: 5px solid black;
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,.5);
+}
+#reset:hover {
+  transform: scale(-1, 1);
+  background-color: #DED;
+}
+
+
 footer {
   font-size: .75rem;
   color: gray;
