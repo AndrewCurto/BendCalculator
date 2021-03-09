@@ -7,13 +7,29 @@ body {
   font-family: "Architects Daughter", monospace; 
   background-color: #DEE1DD;
 }
+
+.inputs {
+  border: 3px solid black;
+  border-radius: 15%;
+  background-color: #DEEEEF;
+}
+
 .calculations {
   line-height: 3;
 }
 p {
-  line-height: .5;
+  line-height: .25;
   color: black;
 }
+
+hr {
+  width: 50%;
+  border: double;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  opacity: .05;
+  
+  }
 #button {
   background-color: #DEE;
   border-radius: 20%;
