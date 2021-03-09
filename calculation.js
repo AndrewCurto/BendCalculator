@@ -18,6 +18,7 @@ thkInput = (thkOut[inPosition]);
    var bendDeduction = (thkInput * 1.55) * totalBends;
     var totalResult = sumBends - bendDeduction;
   document.getElementById("result").innerHTML = totalResult.toFixed(3);
+  document.getElementById("gif").style.visibility = "visibile";
   
   
 }
