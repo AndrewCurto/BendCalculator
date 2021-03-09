@@ -1,44 +1,38 @@
-<!DOCTYPEHTML>
+<html>
   <head>
     <title>Bend Reduction Calculator</title>
-   <link rel="stylesheet" href="styles.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   </head>
-	
   <body>
     
     <h1>Bend Reduction Calculator</h1>
-    <div class=calculations><label>Thickness:</label><input id="thickness" size=2> <label>Total Bends:</label><input id="totalbends" size=1>
+    <div class=calculations><label>Thickness: </label><input id="thickness" class="inputs" size=2> <label>Total Bends: </label><input id="totalbends" class="inputs" size=1> 
     
       <p> The total thickness can be entered as a gauge number or a decimal thickness value.</p>
       
-     
-    <label>Bend Dimensions:</label><input id="bend1" size=1 value=0>
-    <input id="bend2" size=1 value=0>
-    <input id="bend3" size=1 value=0>
-    <input id="bend4" size=1 value=0>
-    <input id="bend5" size=1 value=0>
-    <input id="bend6" size=1 value=0>
-    <input id="bend7" size=1 value=0>
-    <input id="bend8" size=1 value=0>
+     <hr>
+    <label>Bends: </label><input id="bend1" class="inputs" size=1 value=0>
+    <input id="bend2" class="inputs" size=1 value=0>
+    <input id="bend3" class="inputs" size=1 value=0>
+    <input id="bend4" class="inputs" size=1 value=0>
+    <input id="bend5" class="inputs" size=1 value=0>
+    <input id="bend6" class="inputs" size=1 value=0>
+    <input id="bend7" class="inputs" size=1 value=0>
+    <input id="bend8" class="inputs" size=1 value=0>
     </div>
     
     <br>
     <button id="button" onclick="totalLength()">RESULT</button>
     <br>
     <span id="result"></span>
-
-
-<footer>
-    Made by AC
-  </footer>
-
     
-<script src="calculation.js"></script>
   </body>
   
   
-  
+  <footer>
+    Made by AC
+  </footer>
+</html>
