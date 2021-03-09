@@ -1,0 +1,40 @@
+h1 {
+  font-family: "Fascinate", monospace;
+}
+
+body {
+  text-align: center;
+  font-family: "Architects Daughter", monospace; 
+  background-color: #DEE1DD;
+}
+.calculations {
+  line-height: 3;
+}
+p {
+  line-height: .5;
+  color: black;
+}
+#button {
+  background-color: #DEE;
+  border-radius: 20%;
+  width: 150px;
+  height: 50px;
+  border: 5px solid black;
+  font-family: "Fascinate";
+  font-size: 2rem;  
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.2);
+}
+#button:hover {
+  background-color: white;
+ box-shadow: 5px 5px 5px 1px rgba(0,0,0,.5);
+}
+span {
+  font-size: 4rem;
+  
+}
+
+footer {
+  font-size: .75rem;
+  color: gray;
+  margin-top: 250px;
+}
