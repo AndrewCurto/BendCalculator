@@ -67,7 +67,10 @@ span {
 #gif {
   width: 5%;
   margin: 0; 
-  visibility: hidden;
+  
+}
+#caliperGuy {
+  width: 10%;
 }
 
 footer {
