@@ -23,6 +23,11 @@ p {
   color: black;
 }
 
+.gauge {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
 .note {
   font-size: .9rem;
 }
