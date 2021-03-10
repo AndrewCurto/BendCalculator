@@ -5,7 +5,7 @@ h1 {
 
 body {
   text-align: center;
-  font-family: "Architects Daughter", monospace; 
+  font-family: "Architects Daughter", monospace;
   background-color: #DEE1DD;
 }
 
@@ -29,7 +29,7 @@ hr {
   border-top: 1px dashed;
   border-bottom: 1px dashed;
   opacity: .05;
-  
+
   }
 #button {
   background-color: #DEE;
@@ -38,7 +38,7 @@ hr {
   height: 50px;
   border: 5px solid black;
   font-family: "Fascinate";
-  font-size: 2rem;  
+  font-size: 2rem;
   box-shadow: 5px 5px 5px 1px rgba(0,0,0,.2);
 }
 #button:hover {
@@ -47,14 +47,14 @@ hr {
 }
 span {
   font-size: 4rem;
-  
+
 }
 
 #reset {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  font-family: "Architects Daughter", monospace; 
+  font-family: "Architects Daughter", monospace;
   font-size: 20px;
   background-color: #DEE;
   border: 5px solid black;
@@ -64,10 +64,11 @@ span {
   transform: scale(-1, 1);
   background-color: #DED;
 }
-#gif {
+#girl {
   width: 5%;
-  margin: 0; 
-  
+  margin: 0;
+  display: none;
+
 }
 #caliperGuy {
   width: 10%;
@@ -75,7 +76,7 @@ span {
 
 #drake {
   width: 10%;
-  visibility: hidden;
+  display: none;
 }
 
 footer {
