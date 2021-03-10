@@ -24,6 +24,6 @@ thkInput = (thkOut[inPosition]);
 }
 
 var resetButton = document.getElementById("reset");
-resetButton.addEventListener("mouseover", function() {
-  document.getElementById("drake").style.visibility = "visible";
+resetButton.addEventListener("mouseover", function(e) {
+  e.document.getElementById("drake").style.visibility = "visible";
 }
