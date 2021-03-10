@@ -73,6 +73,11 @@ span {
   width: 10%;
 }
 
+#drake {
+  width: 20%;
+  visibility: hidden;
+}
+
 footer {
   font-size: .75rem;
   color: gray;
