@@ -23,6 +23,10 @@ p {
   color: black;
 }
 
+.note {
+  font-size: .9rem;
+}
+
 hr {
   width: 50%;
   border: double;
