@@ -20,6 +20,10 @@ thkInput = (thkOut[inPosition]);
   document.getElementById("result").innerHTML = totalResult.toFixed(3);
   document.getElementById("gif").style.visibility = "visibile";
   
-  
+   
 }
 
+var resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", function() {
+  document.getElementById("drake").style.visibility = "visible";
+}
