@@ -36,6 +36,8 @@ if (totalResult === "0.000") {
    guyWithCaliper.style.display = "none";
    dissaPointing.style.display = "inline-block";
    pressResetMsg.style.display = "inline-block";
+   resultButton.innerHTML = "<s>RESULT</s>";
+   resultButton.style.backgroundColor = "red";
   
 } else {
   girlMeasuring.style.display = "inline-block";
