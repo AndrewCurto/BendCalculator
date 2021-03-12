@@ -9,7 +9,7 @@ const pressResetMsg = document.getElementById("pressResetMsg");
 var thkInput = Number(document.getElementById("thickness").value);
 
   if (thkInput = 7 | 10 | 11 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 22 | 24 | 26 | 28) {
-     document.getElementById("thkLabel").innerHTML = <strong>Gauge: </strong>;
+     document.getElementById("thkLabel").innerHTML = "<strong>Gauge: </strong>";
   }
 
 resultButton.addEventListener("click", function() {
