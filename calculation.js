@@ -1,5 +1,17 @@
-function totalLength() {
-  var thkInput = Number(document.getElementById("thickness").value);
+var resetButton = document.getElementById("reset");
+var girlMeasuring = document.getElementById("girl");
+var guyWithCaliper = document.getElementById("caliperGuy");
+var resultButton = document.getElementById("button");
+var drakeGif = document.getElementById("drake");
+var whatHappened = document.getElementById("spiderman");
+var dissaPointing = document.getElementById("disappointGuy");
+const pressResetMsg = document.getElementById("pressResetMsg");
+
+resultButton.addEventListener("click", function() {
+  
+
+
+var thkInput = Number(document.getElementById("thickness").value);
   if (thkInput > 1) {
  let thkIn = [7,10,11,12,13,14,16,18,19,20,22,24,26,28];
 let thkOut = [.1793,.1345,.1196,.1046,.0897,.0747,.0598,.0478,.0418,.0359,.0299,.0239,.0179,.0149];
@@ -16,22 +28,19 @@ thkInput = (thkOut[inPosition]);
       Number(document.getElementById("bend8").value);
   var totalBends = Number(document.getElementById("totalbends").value);
    var bendDeduction = (thkInput * 1.55) * totalBends;
-    var totalResult = sumBends - bendDeduction;
-  document.getElementById("result").innerHTML = totalResult.toFixed(3);
+    var totalResult = (sumBends - bendDeduction).toFixed(3);
+  document.getElementById("result").innerHTML = totalResult;
+
+if (totalResult === "0.000") {
+   whatHappened.style.display = "inline-block";
+   guyWithCaliper.style.display = "none";
+   dissaPointing.style.display = "inline-block";
+   pressResetMsg.style.display = "inline-block";
   
-
-
-}
-
-var girlMeasuring = document.getElementById("girl");
-var guyWithCaliper = document.getElementById("caliperGuy");
-var resetButton = document.getElementById("reset");
-var resultButton = document.getElementById("button");
-var drakeGif = document.getElementById("drake");
-
-resultButton.addEventListener("click", function() {
+} else {
   girlMeasuring.style.display = "inline-block";
   guyWithCaliper.style.display = "none";
   
+}
 
-})
+});
