@@ -103,6 +103,7 @@ span {
   display: none;
   position: absolute;
   left: 40%;
+  border-radius: 25%;
   }
 #pointingGuy {
   width: 10%;
