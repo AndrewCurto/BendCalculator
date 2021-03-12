@@ -59,6 +59,13 @@ span {
 
 }
 
+#pressResetMsg {
+  font-size: 1rem;
+  color: white;
+  display: none;
+  
+}
+
 #reset {
   border-radius: 50%;
   width: 75px;
@@ -77,15 +84,36 @@ span {
   width: 10%;
   margin: 0;
   display: none;
+  right: 30%;
+  bottom: 50%;
+  position: absolute;
+  z-index: -1;
 
 }
 #caliperGuy {
   width: 25%;
+  right: 30%;
+  bottom: 50%;
+  position: absolute;
+  z-index: -1;
 }
 
-#drake {
+#spiderman {
   width: 10%;
   display: none;
+  position: absolute;
+  left: 40%;
+  }
+#pointingGuy {
+  width: 10%;
+  display: none;
+}
+#disappointGuy {
+  width: 10%;
+  display: none;
+  position: absolute;
+  right: 40%;
+  z-index: -1; 
 }
 
 footer {
