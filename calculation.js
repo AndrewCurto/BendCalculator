@@ -41,7 +41,7 @@ resultButton.addEventListener("click", function() {
     dissaPointing.style.display = "inline-block";
     pressResetMsg.style.display = "inline-block";
     resultButton.innerHTML = "<s>RESULT</s>";
-    resultButton.style.backgroundColor = "red";
+    resultButton.style.opacity = ".1";
     calcResult.innerHTML = "";
 
   } else {
