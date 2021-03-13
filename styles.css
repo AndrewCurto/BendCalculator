@@ -1,7 +1,6 @@
-
 h1 {
   font-family: "Fascinate", monospace;
- }
+}
 
 body {
   text-align: center;
@@ -18,14 +17,14 @@ body {
 .calculations {
   line-height: 3;
 }
+
 p {
   line-height: .25;
   color: black;
 }
 
 .gauge {
-  margin-top: 0px;
-  margin-bottom: 30px;
+  line-height: 1;
 }
 
 .note {
@@ -38,8 +37,8 @@ hr {
   border-top: 1px dashed;
   border-bottom: 1px dashed;
   opacity: .05;
+}
 
-  }
 #button {
   background-color: #DEE;
   border-radius: 20%;
@@ -48,22 +47,22 @@ hr {
   border: 5px solid black;
   font-family: "Fascinate";
   font-size: 2rem;
-  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.2);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .2);
 }
+
 #button:hover {
   background-color: white;
- box-shadow: 5px 5px 5px 1px rgba(0,0,0,.5);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .5);
 }
+
 span {
   font-size: 4rem;
-
 }
 
 #pressResetMsg {
   font-size: 1rem;
   color: white;
   display: none;
-  
 }
 
 #reset {
@@ -74,51 +73,57 @@ span {
   font-size: 20px;
   background-color: #DEE;
   border: 5px solid black;
-  box-shadow: 2px 2px 2px 1px rgba(0,0,0,.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
 }
+
 #reset:hover {
   transform: scale(-1, 1);
   background-color: #DED;
 }
+
 #girl {
-  width: 10%;
+  width: 125px;
   margin: 0;
   display: none;
-  right: 30%;
-  bottom: 50%;
+  right: 35%;
   position: absolute;
   z-index: -1;
-
 }
+
 #caliperGuy {
-  width: 25%;
+  width: 400px;
   right: 30%;
-  bottom: 50%;
+  margin: auto;
   position: absolute;
   z-index: -1;
 }
 
 #spiderman {
-  width: 10%;
+  width: 125px;
   display: none;
   position: absolute;
-  left: 40%;
-  border-radius: 25%;
-  }
-#pointingGuy {
-  width: 10%;
-  display: none;
+  left: 38%;
+  border-radius: 10%;
 }
+
+#pointingGuy {
+  width: 75px;
+  display: none;
+  float: right;
+}
+
 #disappointGuy {
-  width: 10%;
+  width: 125px;
   display: none;
   position: absolute;
   right: 40%;
-  z-index: -1; 
+  z-index: -1;
+  border-radius: 32%;
 }
 
 footer {
   font-size: .75rem;
   color: gray;
   margin-top: 250px;
+  opacity: .3;
 }
