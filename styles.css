@@ -1,10 +1,10 @@
 h1 {
-  font-family: "Fascinate", monospace;
+  font-family: "Russo One", monospace;
 }
 
 body {
   text-align: center;
-  font-family: "Architects Daughter", monospace;
+  font-family: "Righteous", monospace;
   background-color: #DEE1DD;
 }
 
@@ -43,10 +43,11 @@ hr {
   background-color: #DEE;
   border-radius: 40%;
   border: 10px solid black;
-  font-family: "Fascinate";
+  font-family: "Russo One";
   font-size: 2rem;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .2);
 }
+
 #button:hover {
   background-color: white;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .5);
@@ -66,7 +67,7 @@ span {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  font-family: "Architects Daughter", monospace;
+  font-family: "Righteous", monospace;
   font-size: 20px;
   background-color: #DEE;
   border: 5px solid black;
@@ -77,6 +78,8 @@ span {
   transform: scale(-1, 1);
   background-color: #DED;
 }
+
+
 
 #girl {
   width: 125px;
