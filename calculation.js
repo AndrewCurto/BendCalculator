@@ -7,6 +7,18 @@ var whatHappened = document.getElementById("spiderman");
 var dissaPointing = document.getElementById("disappointGuy");
 const pressResetMsg = document.getElementById("pressResetMsg");
 var calcResult = document.getElementById("result");
+var thkInput = Number(document.getElementById("thickness").value);
+var thkLabel = document.getElementById("thkLabel")
+
+
+
+document.getElementById("thickness").addEventListener("input", function(){
+  if (document.getElementById("thickness").value > 1) {
+    thkLabel.innerHTML = "Gauge: ";
+  } else {
+    thkLabel.innerHTML = "Thickness: ";
+  }
+});
 
 
 
@@ -14,7 +26,7 @@ resultButton.addEventListener("click", function() {
 
 
 
-  var thkInput = Number(document.getElementById("thickness").value);
+
   if (thkInput > 1) {
     let thkIn = [7, 10, 11, 12, 13, 14, 16, 18, 19, 20, 22, 24, 26, 28];
     let thkOut = [.1793, .1345, .1196, .1046, .0897, .0747, .0598, .0478, .0418, .0359, .0299, .0239, .0179, .0149];
