@@ -7,12 +7,12 @@ var whatHappened = document.getElementById("spiderman");
 var dissaPointing = document.getElementById("disappointGuy");
 const pressResetMsg = document.getElementById("pressResetMsg");
 var calcResult = document.getElementById("result");
-var thkInput = Number(document.getElementById("thickness").value);
+var thkInput = document.getElementById("thickness");
 var thkLabel = document.getElementById("thkLabel")
 
 
 
-document.getElementById("thickness").addEventListener("input", function(){
+thkInput.addEventListener("input", function(){
   if (document.getElementById("thickness").value > 1) {
     thkLabel.innerHTML = "Gauge: ";
   } else {
@@ -27,12 +27,12 @@ resultButton.addEventListener("click", function() {
 
 
 
-  if (thkInput > 1) {
+  if (thkInput.value > 1) {
     let thkIn = [7, 10, 11, 12, 13, 14, 16, 18, 19, 20, 22, 24, 26, 28];
     let thkOut = [.1793, .1345, .1196, .1046, .0897, .0747, .0598, .0478, .0418, .0359, .0299, .0239, .0179, .0149];
     let inPosition = thkIn.indexOf(thkInput);
     thkInput = (thkOut[inPosition]);
-  }
+      }
 
   var sumBends = Number(document.getElementById("bend1").value) +
     Number(document.getElementById("bend2").value) +
@@ -43,7 +43,10 @@ resultButton.addEventListener("click", function() {
     Number(document.getElementById("bend7").value) +
     Number(document.getElementById("bend8").value);
   var totalBends = Number(document.getElementById("totalbends").value);
-  var bendDeduction = (thkInput * 1.55) * totalBends;
+
+  var bendDeduction = (Number(thkInput.value) * 1.55) * totalBends;
+console.log(bendDeduction);
+console.log(thkInput);
   var totalResult = (sumBends - bendDeduction).toFixed(3);
   calcResult.innerHTML = totalResult;
 
