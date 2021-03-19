@@ -96,11 +96,11 @@ span {
   z-index: -1;
 }
 
-#spiderman {
+#eekMeasuring {
   width: 125px;
   display: none;
   position: absolute;
-  left: 38%;
+  left: 42%;
   border-radius: 10%;
 }
 
